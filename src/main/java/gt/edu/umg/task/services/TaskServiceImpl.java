@@ -11,7 +11,7 @@ import java.util.List;
 public class TaskServiceImpl implements TaskService{
 
     @Autowired
-    TaskDao taskDao;
+    private TaskDao taskDao;
 
     @Override
     public List<Task> findAll() {
